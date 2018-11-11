@@ -1,0 +1,63 @@
+#icon{
+    	background: url(../img/花瓣网logo.svg) 0 0 no-repeat;
+    	width: 100px;
+    	height: 24px;
+    }
+	body{
+		background: url(../img/[33861]❊-52241977.png) center center;
+		background-attachment:fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: "Microsoft Yahei"}
+	.index{
+		display: inline-block;
+		margin:0px;
+		position: fixed;
+		top: 0;
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		color: #68789a;
+		padding: 0px 15px 0px 15px;
+		margin-top: 10px;
+		/*text-align:  center;*/
+		
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	img{
+		/*display: block;*/
+		top: 
+		border: 1px red solid;
+		/*color: white;*/
+	}
+	.huaban{
+		font-size: 50px;
+		/*text-align: center;*/
+		position: absolute;
+		top: 30%;
+		left: 30%;
+		color: grey;
+		
+	}
+	input{   
+    width: 580px;   
+    height: 18px;      
+    outline: none;   
+    padding: 10px;   
+    font-size: 13px;   
+    color: #fff;   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #fff; }
+    span{
+    	width: 580px;
+    	height: 30px;
+    	color: #68789a;
+    }  
