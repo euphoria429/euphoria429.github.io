@@ -1,1 +1,95 @@
-2
+<!DOCTYPE html>  
+<html >  
+<head>  
+    <meta charset="UTF-8">  
+    <title>登录—校团委网络中心</title>   
+    <style type="text/css">
+	body{   
+    width: 100%;   
+    height: 100%;     
+    margin: 0;    
+    background:url(http://imgsrc.baidu.com/forum/pic/item/b702a090f603738d9187f373be1bb051f919ec92.jpg)  no-repeat  /* 背景图不平铺 */center center;  /* 背景图垂直、水平均居中 */
+     background-size:cover;/* 让背景图基于容器大小伸缩 */
+     background-attachment:fixed;
+     /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+     background-color:#CCCCCC;/* 设置背景颜色，背景图加载过程中会显示背景色 */font-family:"Microsoft Yahei";
+      
+}   
+#login{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;   
+    margin: -150px 0 0 -150px;   
+    width: 330px;   
+    height: 230px; 
+    border: 1px solid rgba(240,248,255,0.5);
+    background-color: rgba(240,248,255,0.4); 
+    outline: none; 
+    border-radius: 4px;
+}   
+#login h1{   
+    color: rgba(45,45,63,0.9);   
+    /*text-shadow:0 0 10px;*/   
+    letter-spacing: 1px;   
+    margin-left: 15px;   
+    font-size: 20px;
+}    
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 15px;
+    margin-left: 15px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 13px;   
+    color: #fff;   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #fff;   
+}   
+.dglujm{   
+    width: 300px;    
+    display: block;   
+    background-color: rgba(45,45,63,0.8);   
+    border: 1px solid rgb(45,45,63);   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    margin-left: 15px;    
+}  
+	#name h1{
+		margin-left: 0;
+		margin-top:0;
+		color: rgba(255,255,255,0.5);   
+    	text-shadow:0 0 10px;   
+    	letter-spacing: 1px;   
+    	font-size:45px;
+
+	}
+
+    </style>
+</head>  
+<body>
+	<div id="name">
+		<h1>GDPU校团委网络中心</h3>
+	</div>  
+    <div id="login">  
+    	 <hr/> 
+        <h1>用户登录</h1>  
+        <form method="post">  
+            <input type="text" required="required" placeholder="用户名" name="u"></input> 
+             <!-- required=必填字段、placeholder输入文本时消失 -->
+            <input type="password" required="required" placeholder="密码" name="p"></input>  
+            <button class="dglujm" type="submit">登录</button>   <hr/> 
+        </form>  
+    </div>
+<!-- 不做了不做了什么忘记密码什么的balabala啊啊不做了不做了 -->
+<!-- 哭了 辜负了设计组小伙伴的设计 -->
+</body>  
+</html>  
