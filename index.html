@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>EUPHORIA</title>
 	<meta charset="utf-8">
-	<title>伪·花瓣网</title>
-<link rel="stylesheet" type="text/css" href="./CSS/花瓣网.css">
+	<style type="text/css">
+body,html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+	background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+
+h1 {
+	font-size: 24px;
+	margin: 10px 0 0 0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #eeeeee;
+}
+
+p {
+	font-size: 40px;
+	font-weight: light;
+	color: #333333;
+}
+
+span a {
+	font-size: 18px;
+	color: #cccccc;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headimg {
+	width: 250px;
+	height: 250px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+
+	</style>
 </head>
 <body>
-	<div class="index">
-	<!-- <img src="http://huaban.com/img/logo.svg"> -->
-	<a  id="icon" href=""></a>
-	<a href="">首页</a>
-	<a href="">发现</a>
-	<a href="http://huaban.com/all/" target="_blank">最新</a>
-	<a href="http://huaban.com/activities/"target="_blank">活动</a>
-	<a href="http://meisu.huaban.com/?hmsr=hbnavi"target="_blank">版权图库</a>
-	<a href="https://muse.huaban.com/?hmsr=hbnavi"target="_blank">设计服务</a>
-	<a href="http://live.huaban.com/?hmsr=hbnavi"target="_blank">课程</a>
-	<a href="http://huaban.com/partner/meiwu/?hmsr=hbnavi"target="_blank">美物</a>
-</div>
+<div class="container" >
+	<div class="headimg">
+		<a href="../img/head1.jpg">
+			<img src="img/head1.jpg" />
+		</a>
 
-<div class="huaban">
-	<span>花瓣，陪你做生活的设计师</span>
-	<form method="post">
-		<input type="text"  required="required" placeholder="搜索你喜欢的" name="u">
-		
-	</form>
+	</div>
+		<div class="headimg">
+		<a href="../img/head2.jpg">
+			<img src="img/head2.jpg" />
+		</a>
+	</div>
+	<p>&nbspFor my best you.</p>
 </div>
 </body>
 </html>
